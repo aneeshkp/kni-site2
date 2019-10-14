@@ -1,0 +1,8 @@
+bases:
+- git::https://gerrit.akraino.org/r/kni/blueprint-pae.git//profiles/production.baremetal/00_install-config
+
+patches:
+- install-config.yaml
+
+transformers:
+- site-config.yaml
