@@ -9,7 +9,7 @@ controlPlane:
    platform: {}
    replicas: 1
 metadata:
-   name: test1
+   name: cluster
 networking:
   clusterNetworks:
   - cidr: 10.128.0.0/14
