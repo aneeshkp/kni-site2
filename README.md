@@ -7,6 +7,8 @@
 (pulls in the blue prints from Akrino and combines them with site yamls via Kostomize)
 
 
-3./knictl deploy_masters kni-site2
+3./knictl deploy_masters kni-site2  (watch console)
 Now finaly manifest is created, it will be copied into automation.
 (takes few minutes )
+
+4../knictl deploy_workers kni-site2 (runs terra form) (watch console)
